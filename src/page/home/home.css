@@ -1,3 +1,28 @@
 .home {
     color: red;
 }
+.header{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+.content-box{
+    height: 95%;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #c1c3de;
+    overflow-y: scroll;
+}
+.content-box::-webkit-scrollbar {
+    width: 4px;
+}
+.content-box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.content-box::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}

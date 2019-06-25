@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import App from './app.js';
 import './index.css';

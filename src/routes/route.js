@@ -15,7 +15,7 @@ import words from '../page/words/word.js';
 
 export default () => (
     <Router>
-        <ul>
+        <ul className="header">
             <li>
                 <Link to="/">首页</Link>
             </li>
@@ -25,9 +25,11 @@ export default () => (
             <li>留言</li>
             <li>关于我</li>
         </ul>
-        <Route exact path="/" component={home} />
-        <Route exact path="/message" component={message} />
-        <Route exact path="/about" component={about} />
-        <Route exact path="/words" component={words} />
+        <div className="content-box">
+            <Route exact path="/" component={home} />
+            <Route exact path="/message" component={message} />
+            <Route exact path="/about" component={about} />
+            <Route exact path="/words" component={words} />
+        </div>
     </Router>
 )
