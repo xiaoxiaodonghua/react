@@ -1,1 +1,0 @@
-export const GETDATA = 'get/data';
