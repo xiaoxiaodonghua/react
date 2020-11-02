@@ -22,8 +22,12 @@ export default () => (
             <li>
                 <Link to="/message">我的文章</Link>
             </li>
-            <li>留言</li>
-            <li>关于我</li>
+            <li>
+                <Link to="/about">留言</Link>
+            </li>
+            <li>
+                <Link to="/words">关于我</Link>
+            </li>
         </ul>
         <div className="content-box">
             <Route exact path="/" component={home} />

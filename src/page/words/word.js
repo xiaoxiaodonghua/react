@@ -7,11 +7,15 @@ class Home extends React.Component {
             msg: '我是关于我页面',
         }
     }
+
+    seeInformation = () => {
+        console.log(233)
+    }
    
     render () {
         return (
             <div className="home">
-                <p>{this.state.msg}</p>
+                <p onClick={this.seeInformation}>{this.state.msg}</p>
             </div>
         )
     }
